@@ -1,12 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace OOP._02___OOP_Fundations;
 
-namespace OOP._02___OOP_Fundations
+public class StateComportamento
 {
-    internal class StateComportamento
+    public string? Name { get; set; }
+    public DateTime BornsDate { get; set; }
+
+    public int CalculateAge()
     {
+        var actualDate = DateTime.Now;
+        var age = actualDate.Year - BornsDate.Year;
+
+        if (actualDate < BornsDate.AddYears(age)) age--;
+
+        return age;
     }
 }
