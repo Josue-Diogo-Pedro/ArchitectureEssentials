@@ -8,3 +8,18 @@ public class Home
     public decimal Price { get; set; }
     public int NumeroVagas { get; set; }
 }
+
+public class Object
+{
+    public Object() 
+    {
+        Home home = new()
+        {
+            TamanhoM2 = 100,
+            Andares = 2,
+            Price = 100000,
+            NumeroVagas = 3
+        };
+    }
+    
+}
