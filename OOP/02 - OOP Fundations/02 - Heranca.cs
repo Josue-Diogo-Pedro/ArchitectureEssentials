@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace OOP.Fundations;
 
-namespace OOP._02___OOP_Fundations
+public class Employe : People
 {
-    internal class _02___Heranca
-    {
-    }
+    public DateTime AdmissionDate { get; set; }
+    public string? Register { get; set; }
 }
+
+

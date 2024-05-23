@@ -1,6 +1,6 @@
-﻿namespace OOP._02___OOP_Fundations;
+﻿namespace OOP.Fundations;
 
-public class StateComportamento
+public class People
 {
     public string? Name { get; set; }
     public DateTime BornsDate { get; set; }

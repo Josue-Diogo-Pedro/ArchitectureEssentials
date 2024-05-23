@@ -1,4 +1,4 @@
-﻿namespace OOP._01___Class_x_Object;
+﻿namespace OOP.ClassxObject;
 
 //Define class
 public class Home
