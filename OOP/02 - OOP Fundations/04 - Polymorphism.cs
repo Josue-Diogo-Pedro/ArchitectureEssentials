@@ -6,7 +6,9 @@ public class Polymorphism : Eletrodomestics
 
     public Polymorphism() : base("Default", 220){ }
 
+    private static void HotWater() { }
 
+    private static void MoerGraos() { }
 
     public override void Off()
     {
