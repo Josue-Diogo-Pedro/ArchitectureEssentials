@@ -10,13 +10,25 @@ public class Polymorphism : Eletrodomestics
 
     private static void MoerGraos() { }
 
+    public void PrepareCoffe()
+    {
+        Test();
+        HotWater();
+        MoerGraos();
+    }
+
+    public override void Test()
+    {
+        //test of coffer
+    }
+
     public override void Off()
     {
-        throw new NotImplementedException();
+        //Verify recipient of water
     }
 
     public override void On()
     {
-        throw new NotImplementedException();
+        //unhot hotter
     }
 }

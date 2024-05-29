@@ -13,4 +13,8 @@ public abstract class Eletrodomestics
 
     public abstract void On();
     public abstract void Off();
+    public virtual void Test()
+    {
+        //test of object
+    }
 }
