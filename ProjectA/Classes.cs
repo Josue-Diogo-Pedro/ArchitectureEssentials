@@ -1,7 +1,7 @@
 ﻿
 using System.Runtime.CompilerServices;
 
-[assembly: InternalsVisibleTo("ProjectB")]
+//[assembly: InternalsVisibleTo("ProjectB")]
 namespace ProjectA;
 
 

@@ -15,7 +15,16 @@ class TestClasses
 
 class TestModifier1
 {
+    public TestModifier1()
+    {
+        Public publica = new();
+        //publica.InternalTest();
+        //publica.ProtectedInternalTest(); is not possible
+        //publica.ProtectedTest(); is not possible
+        //publica.PrivateProtectedTest(); is not possible
+        //publica.PrivateTest(); is not possible
 
+    }
 }
 
 class TestModifier2
