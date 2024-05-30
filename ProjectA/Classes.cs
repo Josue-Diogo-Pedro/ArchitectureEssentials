@@ -1,9 +1,15 @@
 ﻿namespace ProjectA;
 
-public class Classes
-{
 
+#region Classes
+
+public class Public
+{
+    public void PublicTest() { }
+    private void PrivateTest() { }
 }
+
+#endregion
 
 /***************************************************************************/
 // public:
