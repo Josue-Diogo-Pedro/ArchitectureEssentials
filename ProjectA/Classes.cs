@@ -35,6 +35,23 @@ class TestClasses
         var interna = new Internal();
         //var abstracta = new Abstract(); is not possible
     }
+
+    //class TestSelead : Selead { } is not possible
+
+}
+
+class TestModifier1
+{
+    public TestModifier1()
+    {
+        Public publica = new();
+        publica.PublicTest();
+        publica.InternalTest();
+        publica.ProtectedInternalTest();
+        //publica.ProtectedTest(); is not possible
+        //publica.ProtectedPrivateTest(); is not possible
+        //publica.PrivateTest(); is not possible
+    }
 }
 
 #endregion
