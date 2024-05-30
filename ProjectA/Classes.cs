@@ -1,4 +1,8 @@
-﻿namespace ProjectA;
+﻿
+using System.Runtime.CompilerServices;
+
+[assembly: InternalsVisibleTo("ProjectB")]
+namespace ProjectA;
 
 
 #region Classes
