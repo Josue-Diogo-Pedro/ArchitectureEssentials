@@ -54,6 +54,19 @@ class TestModifier1
     }
 }
 
+class TestModifier2 : Public
+{
+    public TestModifier2()
+    {
+        PublicTest();
+        InternalTest();
+        ProtectedTest();
+        ProtectedInternalTest();
+        PrivateProtectedTest();
+        //PrivateTest(); is not possible
+    }
+}
+
 #endregion
 
 /***************************************************************************/
