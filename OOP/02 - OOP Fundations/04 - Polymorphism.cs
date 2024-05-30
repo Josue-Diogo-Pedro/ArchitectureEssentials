@@ -1,10 +1,10 @@
 ﻿namespace OOP.Fundations;
 
-public class Polymorphism : Eletrodomestics
+public class ExpressCoffer : Eletrodomestics
 {
-    public Polymorphism(string name, int volt) : base(name, volt) { }
+    public ExpressCoffer(string name, int volt) : base(name, volt) { }
 
-    public Polymorphism() : base("Default", 220){ }
+    public ExpressCoffer() : base("Default", 220){ }
 
     private static void HotWater() { }
 
