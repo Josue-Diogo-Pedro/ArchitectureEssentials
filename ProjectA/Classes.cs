@@ -23,6 +23,22 @@ abstract class Abstract { }
 
 #endregion
 
+
+#region Tests
+
+class TestClasses
+{
+    public TestClasses()
+    {
+        var publica = new Public();
+        var privada = new Private();
+        var interna = new Internal();
+        //var abstracta = new Abstract(); is not possible
+    }
+}
+
+#endregion
+
 /***************************************************************************/
 // public:
 
