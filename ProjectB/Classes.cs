@@ -27,7 +27,15 @@ class TestModifier1
     }
 }
 
-class TestModifier2
+class TestModifier2 : Public
 {
-
+    public TestModifier2()
+    {
+        PublicTest();
+        ProtectedTest();
+        ProtectedInternalTest();
+        //InternalTest(); is not possible
+        //PrivateProtectedTest(); is not possible
+        //PrivateTest(); is not possible
+    }
 }
