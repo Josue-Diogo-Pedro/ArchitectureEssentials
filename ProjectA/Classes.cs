@@ -13,6 +13,14 @@ public class Public
     protected internal void ProtectedInternalTest() { }
 }
 
+public sealed class Selead { }
+
+class Private { }
+
+internal class Internal { }
+
+abstract class Abstract { }
+
 #endregion
 
 /***************************************************************************/
