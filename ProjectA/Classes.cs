@@ -7,6 +7,10 @@ public class Public
 {
     public void PublicTest() { }
     private void PrivateTest() { }
+    internal void InternalTest() { }
+    protected void ProtectedTest() { }
+    private protected void PrivateProtectedTest() { }
+    protected internal void ProtectedInternalTest() { }
 }
 
 #endregion
