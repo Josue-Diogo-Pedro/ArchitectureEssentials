@@ -68,4 +68,28 @@ public class Repository<T> : IRepository<T>
     }
 }
 
+//Use hirient
+public class RepositoryHirientPeople : Repository<People>, IPeopleRepository 
+{
+    
+}
+
+//Use composition
+public class RepositoryCompositionPeople : IPeopleRepository
+{
+    private readonly IRepository<People> _repository;
+
+    public RepositoryCompositionPeople(IRepository<People> repository)
+    {
+        _repository = repository;
+    }
+
+    public void Add(People people)
+    {
+        _repository.Add(people);
+    }
+}
+
+
+
 #endregion
