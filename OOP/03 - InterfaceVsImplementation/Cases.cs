@@ -1,8 +1,17 @@
 ﻿namespace OOP.Fundations;
 
-public interface IRepository { }
+public interface IRepository 
+{
+    void Add();
+}
 
-public class Repository { }
+public class Repository : IRepository
+{
+    public void Add()
+    {
+        //add item
+    }
+}
 
 public class RepositoryFake { }
 
