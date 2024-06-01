@@ -1,4 +1,4 @@
-﻿namespace OOP.Fundations;
+﻿namespace OOP.InterfaceVsImplementation;
 
 public interface IRepository 
 {

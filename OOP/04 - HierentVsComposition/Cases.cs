@@ -1,4 +1,4 @@
-﻿namespace OOP.Fundations;
+﻿namespace OOP.HirientVsComposition;
 
 #region Case1
 
@@ -40,7 +40,6 @@ public class TestHirientComposition
 }
 
 #endregion
-
 
 #region Case2
 
