@@ -90,6 +90,17 @@ public class RepositoryCompositionPeople : IPeopleRepository
     }
 }
 
+public class TestHirientComposition2
+{
+    public TestHirientComposition2()
+    {
+        var repoH = new RepositoryHirientPeople();
+        repoH.Add(new People());
+        repoH.Remove(new People());
 
+        var repoC = new RepositoryCompositionPeople(new Repository<People>());
+        repoC.Add(new People());
+    }
+}
 
 #endregion
