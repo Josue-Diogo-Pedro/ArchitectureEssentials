@@ -13,7 +13,13 @@ public class Repository : IRepository
     }
 }
 
-public class RepositoryFake { }
+public class RepositoryFake : IRepository
+{
+    public void Add()
+    {
+        //add item
+    }
+}
 
 public class UseImplementation { }
 
