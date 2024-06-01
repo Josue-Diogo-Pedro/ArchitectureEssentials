@@ -21,7 +21,14 @@ public class RepositoryFake : IRepository
     }
 }
 
-public class UseImplementation { }
+public class UseImplementation 
+{
+    public void Process()
+    {
+        var repository = new Repository();
+        repository.Add();
+    }
+}
 
 public class UseAbstraction { }
 
