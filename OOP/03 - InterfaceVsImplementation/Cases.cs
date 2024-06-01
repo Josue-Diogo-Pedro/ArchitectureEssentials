@@ -38,4 +38,17 @@ public class UseAbstraction
     public void Proccess() => _repository.Add();
 }
 
-public class TestInterfaceImplementation { }
+public class TestInterfaceImplementation 
+{
+    public TestInterfaceImplementation()
+    {
+        var repoImp = new UseImplementation();
+        repoImp.Process();
+
+        var repoAbs = new UseAbstraction(new Repository());
+        repoAbs.Proccess();
+
+        var repoAbsFake = new UseAbstraction(new RepositoryFake());
+        repoAbsFake.Proccess();
+    }
+}
