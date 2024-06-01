@@ -30,6 +30,12 @@ public class UseImplementation
     }
 }
 
-public class UseAbstraction { }
+public class UseAbstraction 
+{
+    private readonly IRepository _repository;
+    public UseAbstraction(IRepository repository) => _repository = repository;
+
+    public void Proccess() => _repository.Add();
+}
 
 public class TestInterfaceImplementation { }
