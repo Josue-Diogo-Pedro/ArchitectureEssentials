@@ -41,3 +41,31 @@ public class TestHirientComposition
 
 #endregion
 
+
+#region Case2
+
+public interface IRepository<T>
+{
+    void Add(T entity);
+    void Remove(T entity);
+}
+
+public interface IPeopleRepository
+{
+    void Add(People people);
+}
+
+public class Repository<T> : IRepository<T>
+{
+    public void Add(T entity)
+    {
+        throw new NotImplementedException();
+    }
+
+    public void Remove(T entity)
+    {
+        throw new NotImplementedException();
+    }
+}
+
+#endregion
