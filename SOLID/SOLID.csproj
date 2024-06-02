@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="02 - OCP\OCP.Soluction\" />
+    <Folder Include="02 - OCP\OCP.Soluction.ExtensionMethods\" />
+  </ItemGroup>
+
 </Project>
