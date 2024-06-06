@@ -11,7 +11,7 @@ public class RegisterClient : IRegisterClient
 
     public void SaveInDataBse()
     {
-        //register in database
+        //save in client table
     }
 
     public void SendEmail()
